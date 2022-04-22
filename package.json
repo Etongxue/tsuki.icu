@@ -30,6 +30,7 @@
     "hexo-theme-webstack": "^2.1.0",
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-lafei": "^1.0.0",
+    "live2d-widget-model-shizuku": "^1.0.5",
     "npm": "^8.5.5"
   }
 }
