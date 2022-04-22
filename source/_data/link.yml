@@ -1,0 +1,10 @@
+- class_name: AnyThing
+  class_desc: 你想的他可能都有
+  link_list:
+    - name: iMyshare
+      link: https://imyshare.com/
+      avatar: https://imyshare.com/static/img/logo.png
+      descr:  i like it 
+
+
+
