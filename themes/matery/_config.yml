@@ -130,8 +130,8 @@ video:
   iframeUrl: http://player.bilibili.com/player.html?aid=52761403&bvid=BV1r4411776v&cid=92328539&page=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
   pic: https://cdn.jsdelivr.net/gh/Etongxue/TC@main/1.webp
   thumbnails:
-  height: # 如：400
-  autoplay: false # 是否自动播放
+  height: 520 # 如：400
+  autoplay: true # 是否自动播放
   theme: '#42b983'
   loop: false # 是否循环播放
   preload: 'none' # 预加载，可选值: 'none', 'metadata', 'auto'
