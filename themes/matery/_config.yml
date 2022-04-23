@@ -105,18 +105,18 @@ music:
   enable: true
   title: #非吸底模式有效
     enable: true
-    show: SONG'H
+    show: Tsuki
   autoHide: true    # hide automaticaly
   server: tencent   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
   id: 2272131796     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
-  autoplay: true   # 是否自动播放
+  autoplay: false   # 是否自动播放
   theme: '#42b983'
-  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
+  loop: 'none'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  volume: 0.6       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
   hideLrc: false     # 隐藏歌词
 
@@ -126,8 +126,8 @@ video:
   enable: true
   showTitle: true
   title: 奈斯
-  url: https://p.bokecc.com/qrplay.bo?uid=6B98B18F99B77A5E&vid=75FCEC751601F7B213358DE27D943A99    # url和iframeUrl其中一个必填
-  iframeUrl:  #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
+  url:   # url和iframeUrl其中一个必填
+  iframeUrl: http://player.bilibili.com/player.html?aid=52761403&bvid=BV1r4411776v&cid=92328539&page=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
   pic: https://cdn.jsdelivr.net/gh/Etongxue/TC@main/1.webp
   thumbnails:
   height: # 如：400

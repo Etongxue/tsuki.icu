@@ -139,6 +139,6 @@ live2d:
     height: 600
   mobile:
     # 在手机端显示
-    show: false   
+    show: true   
   rect:
     opacity:0.7
