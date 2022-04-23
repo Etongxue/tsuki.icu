@@ -6,6 +6,7 @@ updated: 2022-03-08 00:50:46
 tags: [bs4,爬虫]
 categories: [爬虫]
 toc: true
+summary: BeautifulSoup库提供了一个方法`find_all()`
 ---
 
 我们有一份由`Requests`库`request.get()`方法获得的`demo.html`文本如下。

@@ -6,6 +6,7 @@ updated: 2022-03-08 16:05:51
 tags: [Python]
 categories: [编程语言基础]
 toc: true
+summary: 正则表达式是用来简洁表达一组字符串的表达式
 ---
 
 ## 1. 正则表达式的概念

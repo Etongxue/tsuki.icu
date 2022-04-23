@@ -5,6 +5,7 @@ date: 2021-10-30 09:36:29
 tags: [GitHub, PicGo]
 categories: [技术]
 toc: true
+summary: PicGo 是一个用于快速上传图片并获取图片 URL 链接的工具. 
 ---
 PicGo 是一个用于快速上传图片并获取图片 URL 链接的工具。
 PicGo 的 Github 地址为 https://github.com/Molunerfinn/PicGo

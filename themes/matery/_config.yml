@@ -78,8 +78,8 @@ time:
 cover:
   showPrevNext: true # 是否显示左右切换按钮. Whether to display the left and right toggle buttons.
   showIndicators: true # 是否显示指示器. # Whether to display the indicators
-  autoLoop: true # 是否自动轮播. Whether it is automatically rotated.
-  duration: 5000 # 切换延迟时间. Switching delay time.
+  autoLoop: false # 是否自动轮播. Whether it is automatically rotated.
+  duration: 100 # 切换延迟时间. Switching delay time.
   intervalTime: 30 # 自动切换下一张的间隔时间. Automatically switch the interval of the next one.
   useConfig: false # 是否使用配置文件, 在 _data/covers.json 下配置推荐文章, false则使用主题在文章中的配置 cover coverImg
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
@@ -114,9 +114,9 @@ music:
   autoplay: false   # 是否自动播放
   theme: '#42b983'
   loop: 'none'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.6       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  order: 'list'   # 音频循环顺序, 可选值: 'list', 'random'
+  preload: 'none'   # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
   hideLrc: false     # 隐藏歌词
 
@@ -126,15 +126,15 @@ video:
   enable: true
   showTitle: true
   title: 奈斯
-  url: /xjj.mp4   # url和iframeUrl其中一个必填
+  url: https://cdn.jsdelivr.net/gh/Etongxue/TC@main/xjj.mp4   # url和iframeUrl其中一个必填
   iframeUrl: #http://player.bilibili.com/player.html?aid=52761403&bvid=BV1r4411776v&cid=92328539&page=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
-  pic: https://cdn.jsdelivr.net/gh/Etongxue/TC@main/1.webp
+  pic: https://img.fy6b.com/2022/04/23/ec20f1ee75479.png
   thumbnails:
   height:  # 如：400
-  autoplay: true # 是否自动播放
+  autoplay: flase # 是否自动播放
   theme: '#42b983'
-  loop: true # 是否循环播放
-  preload: 'metadata' # 预加载，可选值: 'none', 'metadata', 'auto'
+  loop: false # 是否循环播放
+  preload: 'none' # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.6
 
 # Whether to display the title of the recommended posts
@@ -531,28 +531,31 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/banner/152.webp
-- /medias/banner/146.webp
-- /medias/banner/145.webp
-- /medias/banner/133.webp
-- /medias/banner/111.webp
-- /medias/banner/86.webp
-- /medias/banner/64.webp
-- /medias/banner/13.webp
-- /medias/banner/23.webp
-- /medias/banner/33.webp
-- /medias/banner/43.webp
-- /medias/banner/55.webp
-- /medias/banner/63.webp
-- /medias/banner/123.webp
-- /medias/banner/66.webp
-- /medias/banner/89.webp
-- /medias/banner/09.webp
-- /medias/banner/59.webp
-- /medias/banner/50.webp
-- /medias/banner/76.webp
-- /medias/banner/34.webp
-- /medias/banner/112.webp
+- https://img.fy6b.com/2022/04/21/ef85e53c13c25.jpg
+- https://img.fy6b.com/2022/04/23/2ed2da55229b7.jpg
+- https://img.fy6b.com/2022/04/21/de397d792921a.jpg
+- https://img.fy6b.com/2022/04/21/2c9f8ef9bc1f5.jpg
+- https://img.fy6b.com/2022/04/23/d3c377643a902.jpg
+- https://img.fy6b.com/2022/04/23/3e2a01d0a7c68.jpg
+- https://img.fy6b.com/2022/04/21/8949b3a3c4811.jpg
+- https://img.fy6b.com/2022/04/23/45dea51452770.jpg
+- https://img.fy6b.com/2022/04/21/afa87b00d2627.jpg
+- https://img.fy6b.com/2022/04/23/baad206b060d6.jpg
+- https://img.fy6b.com/2022/04/23/09d6e5f5c6e7a.jpg
+- https://img.fy6b.com/2022/04/23/900247b00e6e4.jpg
+- https://img.fy6b.com/2022/04/23/562f9589a08f1.jpg
+- https://img.fy6b.com/2022/04/23/acbe5e429ed15.jpg
+- https://img.fy6b.com/2022/04/23/6d46a598bd017.jpg
+- https://img.fy6b.com/2022/04/23/50e9a4acdd5fe.jpg
+- https://img.fy6b.com/2022/04/23/87ac88971ae13.jpg
+- https://img.fy6b.com/2022/04/23/4cd91a1ed9446.jpg
+- https://img.fy6b.com/2022/04/23/0a09f1f74a6aa.jpg
+- https://img.fy6b.com/2022/04/23/0a09f1f74a6aa.jpg
+- https://img.fy6b.com/2022/04/23/06be79f41eda2.jpg
+
+
+
+
 
 
 # default configs that the default policy for every articles/posts
@@ -666,7 +669,7 @@ icp:
 # 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html
 # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
 jsDelivr:
-  url: #https://cdn.jsdelivr.net/gh/Etongxue/etongxue.github.io
+  url: #https://cdn.jsdelivr.net/gh/Etongxue/tsuki.github.io
   
 # 网站背景图
 background:

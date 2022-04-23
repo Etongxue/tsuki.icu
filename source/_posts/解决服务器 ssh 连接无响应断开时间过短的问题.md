@@ -5,6 +5,7 @@ categories: [技术]
 tags: [SSH]
 toc: true
 comments: true
+summary: 使用 ssh 连接到阿里云服务器的时候，总是一会儿不动就被断开连接了，有点烦，这里解决一下这个问题
 ---
 
 
