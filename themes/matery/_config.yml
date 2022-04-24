@@ -22,6 +22,12 @@ menu:
   ZOY:
     icon: fas fa-female
     children:
+      - name: 哔哔
+        icon: fas fa-pen
+        url: /bb/index.html
+      - name: 一起哔哔
+        icon: fas fa-pen
+        url: https://z.tsuki.icu      
       - name: idiot
         icon: fas fa-sex
         url: /love
@@ -106,7 +112,7 @@ music:
   title: #非吸底模式有效
     enable: true
     show: Tsuki
-  autoHide: true    # hide automaticaly
+  autoHide: false    # hide automaticaly
   server: tencent   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
   id: 2272131796     #require	song id / playlist id / album id / search keyword
@@ -128,7 +134,7 @@ video:
   title: 奈斯
   url: https://cdn.jsdelivr.net/gh/Etongxue/TC@main/xjj.mp4   # url和iframeUrl其中一个必填
   iframeUrl: #http://player.bilibili.com/player.html?aid=52761403&bvid=BV1r4411776v&cid=92328539&page=1 #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
-  pic: https://img.fy6b.com/2022/04/23/ec20f1ee75479.png
+  pic: /6.png
   thumbnails:
   height:  # 如：400
   autoplay: flase # 是否自动播放
@@ -531,27 +537,39 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- https://img.fy6b.com/2022/04/21/ef85e53c13c25.jpg
-- https://img.fy6b.com/2022/04/23/2ed2da55229b7.jpg
-- https://img.fy6b.com/2022/04/21/de397d792921a.jpg
-- https://img.fy6b.com/2022/04/21/2c9f8ef9bc1f5.jpg
-- https://img.fy6b.com/2022/04/23/d3c377643a902.jpg
-- https://img.fy6b.com/2022/04/23/3e2a01d0a7c68.jpg
-- https://img.fy6b.com/2022/04/21/8949b3a3c4811.jpg
-- https://img.fy6b.com/2022/04/23/45dea51452770.jpg
-- https://img.fy6b.com/2022/04/21/afa87b00d2627.jpg
-- https://img.fy6b.com/2022/04/23/baad206b060d6.jpg
-- https://img.fy6b.com/2022/04/23/09d6e5f5c6e7a.jpg
-- https://img.fy6b.com/2022/04/23/900247b00e6e4.jpg
-- https://img.fy6b.com/2022/04/23/562f9589a08f1.jpg
-- https://img.fy6b.com/2022/04/23/acbe5e429ed15.jpg
-- https://img.fy6b.com/2022/04/23/6d46a598bd017.jpg
-- https://img.fy6b.com/2022/04/23/50e9a4acdd5fe.jpg
-- https://img.fy6b.com/2022/04/23/87ac88971ae13.jpg
-- https://img.fy6b.com/2022/04/23/4cd91a1ed9446.jpg
-- https://img.fy6b.com/2022/04/23/0a09f1f74a6aa.jpg
-- https://img.fy6b.com/2022/04/23/0a09f1f74a6aa.jpg
-- https://img.fy6b.com/2022/04/23/06be79f41eda2.jpg
+- /medias/banner/5.webp
+- /medias/banner/6.webp
+- /medias/banner/7.webp
+#- /medias/banner/65.webp
+- /medias/banner/66.webp 
+#- /medias/banner/67.webp
+- /medias/banner/23.webp
+#- /medias/banner/24.webp
+- /medias/banner/112.webp
+- /medias/banner/113.webp
+- /medias/banner/123.webp
+#- /medias/banner/124.webp
+#- /medias/banner/56.webp
+- /medias/banner/57.webp
+- /medias/banner/59.webp
+- /medias/banner/51.webp
+#- /medias/banner/35.webp
+#- /medias/banner/36.webp
+- /medias/banner/25.webp
+#- /medias/banner/26.webp
+- /medias/banner/15.webp
+- /medias/banner/16.webp
+#- /medias/banner/115.webp
+- /medias/banner/116.webp
+#- /medias/banner/95.webp
+- /medias/banner/75.webp
+- /medias/banner/76.webp
+#- /medias/banner/99.webp
+- /medias/banner/100.webp
+- /medias/banner/69.webp
+- /medias/banner/53.webp
+- /medias/banner/54.webp
+#- /medias/banner/97.webp
 
 
 
@@ -697,7 +715,7 @@ artitalk:
 # 关注公众号 "黑石哔哔"，发送: //bindCurrentUser:你的APPID,你的MASTERKEY,你的RESTAPI
 # 可用leancloud国际版，国际版api为 https://appid前八位.api.lncldglobal.com
 bbtime:
-  enable: true
+  enable: false
   appId: nlFn3g8xSbLWPmx8EuDAroy3-MdYXbMMI # 你的appId
   appKey: cxV2s5uh0oNxmUVCUyCMNr2V # 你的appKey
   serverURLs: https://nlfn3g8x.api.lncldglobal.com # https://你的api

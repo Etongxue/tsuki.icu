@@ -1373,6 +1373,11 @@
   dependencies:
     "jake" "^10.6.1"
 
+"ejs@2.5.6":
+  "integrity" "sha1-R5Y2v6P+Ox3r1SCH8KyyBLTxnIg="
+  "resolved" "https://registry.npmjs.org/ejs/-/ejs-2.5.6.tgz"
+  "version" "2.5.6"
+
 "emoji-regex@^7.0.1":
   "integrity" "sha512-CwBLREIQ7LvYFB0WyRvwhq5N5qPhc6PMjD6bYggFlI5YyDgl+0vxq5VHbMOFqLg7hfWzmu8T5Z1QofhmTIhItA=="
   "resolved" "https://registry.npmmirror.com/emoji-regex/-/emoji-regex-7.0.3.tgz"
@@ -1968,6 +1973,13 @@
   "version" "1.0.3"
   dependencies:
     "function-bind" "^1.1.1"
+
+"hexo-bb@^0.1.13":
+  "integrity" "sha512-0xY7Cs+DFeyf4xTpd69QIOd4FUrbYsDSFCOX400bkkUIcSfefJeKg8FYSJ9N+48tjSg3oadjtxUv+zjY/0vD5w=="
+  "resolved" "https://registry.npmjs.org/hexo-bb/-/hexo-bb-0.1.13.tgz"
+  "version" "0.1.13"
+  dependencies:
+    "ejs" "2.5.6"
 
 "hexo-bunyan@^1.0.0":
   "integrity" "sha512-RymT8Ck+K77mLt9BEYNb4uyfC7RIQnU5N3laXowMrS28jj2h89VHJCOnhV00mmta4fHRqNa07kP1Hrn17nvMkQ=="
